@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 import numpy as np
 import pickle
-loaded_model=pickle.load(open('C:/Users\HP/OneDrive/Desktop/fgvyjtfdtyt/trained_model_pred.sav','rb'))
+loaded_model=pickle.load(open('C:/Users/HP/OneDrive/Desktop/MachineBreastPred/trained_model.sav','rb'))
 
 
 input_data = (17.33,184.60,0.16220,0.2654,0.41915)
