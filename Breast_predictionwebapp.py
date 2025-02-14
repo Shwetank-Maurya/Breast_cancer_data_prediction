@@ -120,6 +120,7 @@ def main():
 
         # Prediction button
         if st.button('Breast test RESULT'):
+            
             # Convert inputs to float and update session state
             try:
                 input_data = [
