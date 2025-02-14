@@ -23,9 +23,9 @@ def breast_pred(input_data):
     prediction = loaded_model.predict(input_data_reshaped)
 
     if prediction[0] == 0:
-        return 'The Woman has no Breast Cancer...'
+        return 'The Woman has no Breast Cancer..."I am here to tell you your second life is going to be so much better than the first". '
     else:
-        return 'The Woman has Breast cancer...'
+        return 'The Woman has Breast cancer..."No one can fight this battle well as you can". '
 
 def main():
     # Add custom CSS for styling the background, header, and other elements
